@@ -2,9 +2,15 @@
 A simple Roman Numeral Converter made with Java and IntelliJ.
 
 Imports the following classes:
+<<<<<<< HEAD
     • java.util.ArrayList
     • java.util.Map
     • java.util.Scanner
+=======
+• java.util.ArrayList
+• java.util.Map
+• java.util.Scanner
+>>>>>>> master
 
 Prompts the user to input a String of Roman Numerals ('I', 'V', 'X', 'L', 'C', 'D', 'M') and converts it into its corresponding integer value.
 
@@ -15,6 +21,12 @@ Creates a Hashmap inserting the Roman Numerals as Keys with their corresponding 
 Declares a variable integer Result and Previous Value as 0.
 
 Passes the ArrayList to a for-loop, checking first the last character.
+<<<<<<< HEAD
     - Within the ArrayList a variable Value is declared and initialized as the value connected to the character being checked by the for-loop.
     - If Value is less than Previous Value (default is 0), then Result is substracted by the Value. If Value is greater than or equal to the Previous Value, then the Value is added to the Result. Either way, after checking, the Value is set as the Previous Value.
     - After checking all the characters, the integer Result is returned.
+=======
+- Within the ArrayList a variable Value is declared and initialized as the value connected to the character being checked by the for-loop.
+- If Value is less than Previous Value (default is 0), then Result is substracted by the Value. If Value is greater than or equal to the Previous Value, then the Value is added to the Result. Either way, after checking, the Value is set as the Previous Value.
+- After checking all the characters, the integer Result is returned.
+>>>>>>> master
